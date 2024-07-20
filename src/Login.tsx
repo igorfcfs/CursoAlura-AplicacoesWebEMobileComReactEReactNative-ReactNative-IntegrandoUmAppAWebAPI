@@ -1,9 +1,9 @@
 import { VStack, Image, Text, Box, Link } from 'native-base'
 import { TouchableOpacity } from 'react-native';
 import Logo from './assets/Logo.png'
-import { Botao } from './componentes/Botao';
-import { EntradaTexto } from './componentes/EntradaTexto';
-import { Titulo } from './componentes/Titulo';
+import { Botao } from './components/Botao';
+import { EntradaTexto } from './components/EntradaTexto';
+import { Titulo } from './components/Titulo';
 
 export default function Login({ navigation }) {
   return (

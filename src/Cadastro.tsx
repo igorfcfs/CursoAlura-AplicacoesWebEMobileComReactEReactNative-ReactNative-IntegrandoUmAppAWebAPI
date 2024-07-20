@@ -2,9 +2,9 @@ import { VStack, Image, Text, Box, Link, Checkbox, ScrollView } from 'native-bas
 import { useState } from 'react';
 import { TouchableOpacity } from 'react-native';
 import Logo from './assets/Logo.png'
-import { Botao } from './componentes/Botao';
-import { EntradaTexto } from './componentes/EntradaTexto';
-import { Titulo } from './componentes/Titulo';
+import { Botao } from './components/Botao';
+import { EntradaTexto } from './components/EntradaTexto';
+import { Titulo } from './components/Titulo';
 import { secoes } from './utils/CadastroEntradaTexto';
 
 export default function Cadastro() {

@@ -1,8 +1,8 @@
 import { VStack, Image, Box, ScrollView, Text, Divider } from "native-base";
 import Logo from '../assets/Logo.png';
-import { Botao } from "../componentes/Botao";
-import { EntradaTexto } from "../componentes/EntradaTexto";
-import { Titulo } from "../componentes/Titulo";
+import { Botao } from "../components/Botao";
+import { EntradaTexto } from "../components/EntradaTexto";
+import { Titulo } from "../components/Titulo";
 import { depoimentos } from "../utils/mock";
 
 

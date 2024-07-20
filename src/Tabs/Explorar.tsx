@@ -1,8 +1,8 @@
 import { VStack, Box, ScrollView } from "native-base";
-import { Botao } from "../componentes/Botao";
-import { CardConsulta } from "../componentes/CardConsulta";
-import { EntradaTexto } from "../componentes/EntradaTexto";
-import { Titulo } from "../componentes/Titulo";
+import { Botao } from "../components/Botao";
+import { CardConsulta } from "../components/CardConsulta";
+import { EntradaTexto } from "../components/EntradaTexto";
+import { Titulo } from "../components/Titulo";
 
 export default function Explorar(){
   return(

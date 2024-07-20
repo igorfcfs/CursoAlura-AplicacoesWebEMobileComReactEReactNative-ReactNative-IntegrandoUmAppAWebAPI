@@ -1,5 +1,5 @@
 import { VStack, Text, ScrollView, Avatar, Divider } from 'native-base'
-import { Titulo } from '../componentes/Titulo'
+import { Titulo } from '../components/Titulo'
 
 export default function Perfil(){
   return(
