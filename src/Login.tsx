@@ -9,7 +9,7 @@ import { fazerLogin } from './services/AutenticacaoServico';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { jwtDecode } from 'jwt-decode';
 
-export default function Login({ navigation }) {
+export default function Login({ navigation }: any) {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
   const [carregando, setCarregando] = useState(true);
