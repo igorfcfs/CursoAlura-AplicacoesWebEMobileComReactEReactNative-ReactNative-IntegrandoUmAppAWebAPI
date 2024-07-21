@@ -8,15 +8,16 @@ import { useEffect, useState } from 'react';
 import { fazerLogin } from './services/AutenticacaoServico';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { jwtDecode } from 'jwt-decode';
+import { NavigationProps } from './@types/navigation';
 
-export default function Login({ navigation }: any) {
+export default function Login({ navigation }: NavigationProps<'Login'>) {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
   const [carregando, setCarregando] = useState(true);
   const toast = useToast();
 
   useEffect(() => { //executado sempre q a tela e carregada
-    AsyncStorage.removeItem('token');
+    // AsyncStorage.removeItem('token');
     async function verificarLogin(){
       const token = await AsyncStorage.getItem('token');
       if (token){
